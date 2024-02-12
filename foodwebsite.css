@@ -352,19 +352,16 @@ nav ul li a:hover {
         left: 0;
         right: 0;
         background: #000;
-        display: grid; /* Switch to grid */
-        grid-template-columns: 1fr; /* One column */
-        grid-auto-rows: min-content; /* Auto size rows based on content */
-        gap: 0; /* Remove gaps between items */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
         overflow: hidden;
         transition: max-height 0.5s;
     }
 
     nav ul li {
-        width: 100%; /* Each item takes full width */
+        width: 100%;
     }
-}
-
 
     nav ul li:last-child {
         padding-bottom: 40px;
